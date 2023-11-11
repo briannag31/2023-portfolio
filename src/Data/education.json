@@ -1,0 +1,20 @@
+[
+    {
+        "school": "Santa Clara University",
+        "degree": "B.S., Political Science",
+        "locationOrNotes": "Santa Clara, CA",
+        "dates": "2013 - 2016"
+    },
+    {
+        "school": "General Assembly",
+        "degree": "Software Engineering Immersive Bootcamp",
+        "locationOrNotes": "24-week, 500+ hour training program",
+        "dates": "Completed August 2022"
+    },
+    {
+        "school": "Multiverse",
+        "degree": "Software Engineering Bootcamp",
+        "locationOrNotes": "15-month bootcamp provided by Cisco",
+        "dates": "Completed November 2023"
+    }
+]

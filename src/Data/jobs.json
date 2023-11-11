@@ -1,0 +1,36 @@
+ [
+    {
+        "company": "Cisco Systems, Inc.",
+        "role": "Frontend Software Engineering Associate - Security Business Group",
+        "location": "Los Angeles, CA (remote)",
+        "dates": "September 2022 - Present",
+        "responsibilities": ["Develop frontend code for micro-frontend security applications using React and TypeScript. Excel in delivering solutions to complex problems, applying attention to detail with a sense of accuracy while writing/analyzing code.", "Actively participate in application design/architectural discussions. Collaborate with project managers, UX designers, and other relevant teams to align on application design and implementation across platforms.", "Participate and contribute to proof-of-concept (POC) stage of project development, including investigation of potential frontend frameworks and micro-frontend management. Speak to other team members to understand POC goals.", "Attended and completed a 15-month software engineering development program with courses related to React, TypeScript, OWASP and Cybersecurity, CI/CD, etc. "
+        ]
+    },
+    {
+        "company": "McKinsey & Company",
+        "role": "Recruiter",
+        "location": "Denver, CO",
+        "dates": "October 2021 - September 2022",
+        "responsibilities": ["Collaborated with leadership in the Denver office to implement robust recruiting strategies related to Diversity, Equity, & Inclusion (DEI), leading a team of 5 recruiters to implement diversity and inclusion efforts for campus recruiting"]
+    },
+    {
+        "company": "Wilson Sonsini Goodrich & Rosati",
+        "role": "Recruiter",
+        "location": "Los Angeles, CA",
+        "dates": "July 2018 2021 - September 2021*",
+        "responsibilities": ["Tracked and analyzed brand building and recruiting efforts for firm managing partner and firmwide hiring partners.","Provided team leadership in coordinating annual 1L Diversity Summit for 30-40 diverse students." ]
+    },
+    {
+        "company": "AmeriCorps VISTA",
+        "role": "Grant Writing Specialist",
+        "dates": "July 2017 - July 2018",
+        "responsibilities": ["Wrote 40+ grant applications and raised over $1 Million in grant funds for schools and districts across the state of Colorado.", "Hosted professional development events at schools around Colorado.", "Facilitated bullying prevention services to schools in rural Colorado.", "Facilitated professional development to teachers around social/emotional learning."]
+    },
+    {
+        "company": "Skadden, Arps, Slate, Meagher & Flom",
+        "role": "Recruiting and Administrative Assistant ",
+        "dates": "October 2016 - June 2017",
+        "responsibilities": ["Supported all aspects of law school recruiting - identifying areas of opportunity and presenting recommendations."]
+    }
+]
