@@ -6,7 +6,7 @@ import jobData from '../Data/jobs.json';
 
 export const JobCard = () => {
   return jobData.map((job, idx) => (
-    <Card sx={{ minWidth: 275 }} key={idx}>
+    <Card sx={{ minWidth: '100%', margin: 2, border: 'pink solid 1px' }} key={idx}>
       <CardContent>
         <Typography variant="h5" component="div">
           {job.company}
