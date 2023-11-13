@@ -1,13 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
 body {
   background-image: url('/src/photos/Brown\ Grey\ Creative\ Modern\ Online\ Portfolio\ \(3\).png');
   background-repeat: no-repeat;
   background-size: cover;
-}
-.card {
-  width: 200px;
-  height: 200px;
-  overflow: hidden;
-  opacity: 0.5;
+  width: 100%;
 }
 
 .circular--portrait {
@@ -22,7 +23,7 @@ body {
   flex-direction: row;
   justify-content: center;
   margin-top: 100px;
-  margin-left: 150px;
+  margin-left: 25%;
 }
 .circular--portrait img {
   width: 100%;
@@ -30,15 +31,13 @@ body {
 }
 .container {
   display: flex;
-  flex-wrap: wrap;
-  /* align-content: space-between; */
-  flex-direction: row;
-  justify-content: center;
-  width: 100%;
-  padding: -300px;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
 }
-.right {
-  align-items: flex-start;
+.top {
+  display: flex;
+  justify-content: center;
 }
 
 .home-text {
@@ -46,22 +45,18 @@ body {
   color: white;
   font-size: 150px;
   text-align: left;
-  margin-left: -125px;
-  /* margin-left: -30vw; */
-}
-
-.buttons {
-  position: relative;
-  display: flexbox;
-  /* flex-wrap: nowrap; */
-  flex-direction: row;
-  align-items: flex-end;
-  /* justify-content: center; */
+  margin-top: 10vh;
 }
 
 .button {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  /* flex-direction: row; */
+  width: 10%;
+  background-color: white;
+  height: 3rem;
+  border: solid pink 3px;
+  border-radius: 10px;
+  font-weight: bolder;
+}
+a {
+  text-decoration: none;
+  color: hotpink;
 }
