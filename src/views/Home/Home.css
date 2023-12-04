@@ -1,13 +1,4 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-html,
 body {
-  background-image: url('/src/photos/Brown\ Grey\ Creative\ Modern\ Online\ Portfolio\ \(3\).png');
-  background-repeat: no-repeat;
-  background-size: cover;
   width: 100%;
 }
 
@@ -17,12 +8,12 @@ body {
   height: 400px;
   overflow: hidden;
   border-radius: 50%;
-  border: solid pink 4px;
+  border: solid #90e0ef 4px;
   align-content: center;
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin-top: 100px;
+  margin-top: 15vh;
   margin-left: 25%;
 }
 .circular--portrait img {
@@ -30,6 +21,9 @@ body {
   height: auto;
 }
 .container {
+  background-image: url('/src/photos/bluebackground.png');
+  background-repeat: no-repeat;
+  background-size: cover;
   display: flex;
   flex-direction: column;
   width: 100vw;
@@ -43,20 +37,26 @@ body {
 .home-text {
   font-family: 'Lobster', sans-serif;
   color: white;
-  font-size: 150px;
+  font-size: 120px;
   text-align: left;
-  margin-top: 10vh;
+  margin-top: 20vh;
 }
 
 .button {
   width: 10%;
   background-color: white;
   height: 3rem;
-  border: solid pink 3px;
+  border: solid #90e0ef 3px;
   border-radius: 10px;
   font-weight: bolder;
 }
 a {
   text-decoration: none;
-  color: hotpink;
+  color: #0077b6;
+}
+
+.bio {
+  color: white;
+  font-size: 50px;
+  margin-left: 140px;
 }

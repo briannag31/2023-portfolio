@@ -38,7 +38,7 @@ export const NavBar = () => {
   //   };
 
   return (
-    <AppBar position="static">
+    <AppBar position="absolute" style={{ backgroundColor: '#CAF0F8' }}>
       <Container maxWidth="xl">
         <Toolbar disableGutters>
           <Typography
@@ -52,7 +52,7 @@ export const NavBar = () => {
               fontFamily: 'monospace',
               fontWeight: 700,
               letterSpacing: '.3rem',
-              color: 'inherit',
+              color: '#0077B6',
               textDecoration: 'none'
             }}>
             Brianna
@@ -65,7 +65,7 @@ export const NavBar = () => {
               aria-controls="menu-appbar"
               aria-haspopup="true"
               onClick={handleOpenNavMenu}
-              color="inherit">
+              color="#0077B6">
               <MenuIcon />
             </IconButton>
             <Menu
@@ -92,7 +92,7 @@ export const NavBar = () => {
                 href={page.link}
                 key={idx}
                 onClick={handleCloseNavMenu}
-                sx={{ my: 2, color: 'white', display: 'block' }}>
+                sx={{ my: 2, color: '#0077B6', display: 'block' }}>
                 {page.title}
               </Button>
             ))}

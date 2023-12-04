@@ -7,18 +7,19 @@ import Grid from '@mui/material/Grid';
 
 export const EducationCard = () => {
   return educationData.map((school, idx) => (
-    <Grid key={idx} margin={8}>
-      <Card sx={{ minWidth: 275, border: 'pink solid 1px' }} key={idx}>
+    <Grid key={idx} margin={2}>
+      <Card sx={{ width: 350, height: 150, backgroundColor: '#0077B6' }} key={idx}>
         <CardContent>
-          <Typography variant="h5" component="div">
+          <Typography variant="h5" component="div" color={'white'}>
             {school.school}
           </Typography>
-          <Typography sx={{ mb: 1.5 }} color="text.secondary">
+          <Typography sx={{ mb: 1.5 }} color="white">
             {school.degree}
-            <div> {school.dates}</div>
           </Typography>
 
-          <Typography variant="body1">{school.locationOrNotes}</Typography>
+          <Typography variant="body1" color={'white'}>
+            {school.locationOrNotes}
+          </Typography>
         </CardContent>
       </Card>
     </Grid>
